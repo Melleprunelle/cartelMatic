@@ -49,23 +49,15 @@ nav img {
 section {
     width: 75vw;
     height: 70vh;
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-bottom: 2px solid white;
 }
-    section:before {
-        content: "";
-        bottom: 5vh;
-        border-style: solid;
-        position: absolute;
-        border-style: solid;
-        border-width: 25vh 20vw 0 55vw;
-        border-color: whitesmoke transparent transparent transparent;
-    }
 
 section div {
     transform: rotate(-2deg);
@@ -74,6 +66,12 @@ section div {
 section img {
     padding: 20px 0px 0px 0px;
     transform: rotate(4deg);
+}
+
+.pointe {
+    display: block;
+    width: 75vw;
+    margin: 0 auto;
 }
 
 
